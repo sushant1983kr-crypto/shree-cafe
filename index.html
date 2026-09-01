@@ -1,111 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shree Café</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #faf7f2;
-      color: #222;
-      text-align: center;
-    }
-
-    header {
-      background: #222;
-      color: white;
-      padding: 25px;
-    }
-
-    .hero {
-      padding: 80px 20px;
-    }
-
-    h1 {
-      font-size: 38px;
-    }
-
-    .hero p {
-      font-size: 18px;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 14px 25px;
-      background: #222;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
-
-    .cards {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      padding: 30px 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 25px;
-      width: 250px;
-      border-radius: 15px;
-      box-shadow: 0 5px 20px #ddd;
-    }
-
-    footer {
-      margin-top: 50px;
-      background: #222;
-      color: white;
-      padding: 20px;
-    }
-  </style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Café</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#faf7f2;color:#222}
+header{padding:20px;text-align:center;background:#222;color:white}
+.hero{text-align:center;padding:90px 20px;background:#f1e7d8}
+.hero h1{font-size:42px;margin-bottom:15px}
+.hero p{font-size:18px;margin-bottom:25px}
+.btn{display:inline-block;padding:14px 24px;background:#222;color:white;text-decoration:none;border-radius:8px}
+section{padding:55px 20px;text-align:center}
+.cards{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:30px}
+.card{background:white;padding:25px;width:260px;border-radius:15px;box-shadow:0 5px 20px #ddd}
+.card h3{margin-bottom:10px}
+footer{background:#222;color:white;text-align:center;padding:25px}
+</style>
 </head>
-
 <body>
 
 <header>
-  <h2>SHREE CAFÉ</h2>
+<h2>SHREE CAFÉ</h2>
 </header>
 
-<section class="hero">
-  <h1>Fresh Food. Great Moments.</h1>
-  <p>Delicious food and refreshing drinks made with love.</p>
-  <a class="button" href="#contact">Contact Us</a>
-</section>
-
-<h2>Our Specials</h2>
-
-<div class="cards">
-  <div class="card">
-    <h3>☕ Coffee</h3>
-    <p>Freshly prepared coffee.</p>
-  </div>
-
-  <div class="card">
-    <h3>🍕 Pizza</h3>
-    <p>Hot and delicious pizza.</p>
-  </div>
-
-  <div class="card">
-    <h3>🥤 Drinks</h3>
-    <p>Refreshing cold drinks.</p>
-  </div>
+<div class="hero">
+<h1>Fresh Food. Great Moments.</h1>
+<p>Delicious food and refreshing drinks made with love.</p>
+<a class="btn" href="#contact">Contact Us</a>
 </div>
 
-<section id="contact" class="hero">
-  <h2>Contact Us</h2>
-  <p>📞 +91 98765 43210</p>
-  <p>📍 Mumbai, India</p>
+<section>
+<h2>Our Specials</h2>
+<div class="cards">
+<div class="card"><h3>☕ Coffee</h3><p>Freshly prepared coffee.</p></div>
+<div class="card"><h3>🍕 Pizza</h3><p>Hot and delicious pizza.</p></div>
+<div class="card"><h3>🥤 Drinks</h3><p>Refreshing cold drinks.</p></div>
+</div>
 </section>
 
-<footer>
-  © 2026 Shree Café
-</footer>
+<section id="contact">
+<h2>Contact Us</h2><br>
+<p>📞 +91 98765 43210</p>
+<p>📍 Mumbai, India</p>
+</section>
+
+<footer>© 2026 Shree Café</footer>
 
 </body>
 </html>
-
